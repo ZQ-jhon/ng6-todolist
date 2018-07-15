@@ -8,4 +8,5 @@
     
     npm install
 ## 预览 Preview ##
-(https://zq-jhon.github.io/ng6-todolist/dist/ngTodolist/index.html)[https://zq-jhon.github.io/ng6-todolist/dist/ngTodolist/index.html]
+
+[预览地址 Preview Url](https://zq-jhon.github.io/ng6-todolist/dist/ngTodolist/index.html "预览地址 Preview Url")
