@@ -1,0 +1,13 @@
+.list{
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    border-bottom: 1px dashed #e2e2e2;
+}
+li{
+ list-style: none;   
+}
+.btn{
+    display: block;
+   
+}

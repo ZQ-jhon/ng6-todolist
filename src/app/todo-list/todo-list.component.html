@@ -1,0 +1,16 @@
+<div class="container">
+ <div class="form-inline">
+    <div class="form-group">
+      <input class="form-control" #input type="text"  (keyup.enter)="add($event,input.value)"  autofocus="autofocus"  placeholder="按回车提交" />
+	<!-- <button (click)="add($event,input.value)" class="form-control btn btn-default">提交</button> -->
+	</div>
+ </div>
+    <ul>
+      <li *ngFor="let item of list index as i"  class="list text-left" #src> 
+      <i class="glyphicon glyphicon-th-list"></i>   (第{{i+1}}条) {{ item }}   
+        <button class="btn btn-danger pull-right" (click)="remove($event,i)">
+          <i class="glyphicon glyphicon-remove-circle"></i>  删除
+        </button>
+      </li> 
+    </ul>
+</div>

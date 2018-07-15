@@ -1,0 +1,8 @@
+<div>
+    <h2>
+        <img src="./favicon.ico" alt="">
+        Angular todo-list
+    </h2>
+     <div  *ngIf="show" class="alert alert-danger" role="alert">请输入有效内容！</div>
+    <todo-list (isShow)="getChildEvent($event)"></todo-list>
+</div>
