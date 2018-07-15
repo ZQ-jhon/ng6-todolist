@@ -1,4 +1,4 @@
-## Angular6 todo-list##
+## Angular6 todo-list ##
 使用 LocalStorage 存储，具体请看源码。
 ## 启动 Useage ##
 
@@ -8,3 +8,4 @@
     
     npm install
 ## 预览 Preview ##
+(https://zq-jhon.github.io/ng6-todolist/dist/ngTodolist/index.html)[https://zq-jhon.github.io/ng6-todolist/dist/ngTodolist/index.html]
